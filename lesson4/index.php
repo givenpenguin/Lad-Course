@@ -164,7 +164,7 @@ function afterMax($array) {
     }
 }
 
-function arrayFlip(&$array) {
+function arrayFlip($array) {
     echo "Значение-ключ_16" . PHP_EOL;
     
     $flip = [];
