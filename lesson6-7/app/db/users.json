@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "login": "admin",
+        "password": "$2y$10$mutur\/4NNVMk8OPLRPrfN.JEZOkK3lVe6QZdksSg7KFKLTuyDMwuW",
+        "username": "Администратор",
+        "theme": "dark"
+    },
+    {
+        "id": 2,
+        "login": "user",
+        "password": "$2y$10$ERTT6\/GVw508NnuvZsjrvuGUUQnz.38SkCDd.NppQCdIufP2da5PW",
+        "username": "Пользователь",
+        "theme": "light"
+    }
+]
