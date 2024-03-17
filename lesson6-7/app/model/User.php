@@ -54,7 +54,6 @@ class User {
     public function updateUser(string $key, $value): User | false
     {
         $this->$key = $value;
-        $this->db->update($this->getDataArray());
         return $this->storeUserData('update');
     }
 

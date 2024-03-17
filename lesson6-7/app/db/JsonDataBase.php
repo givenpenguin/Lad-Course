@@ -36,7 +36,6 @@ class JsonDataBase
     /**
      * @param array $user
      * @return bool
-     * @uses \App\Model\User::updateUser()
      * @uses \App\Model\User::setUserToDataBase()
      */
     public function insert(array $user): bool
@@ -45,6 +44,11 @@ class JsonDataBase
         return file_put_contents($this->path, json_encode($updatedData, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
     }
 
+    /**
+     * @param array $user
+     * @return bool
+     * @uses \App\Model\User::updateUser()
+     */
     public function update(array $user): bool
     {
         $needle = $this->where('id', $user['id']);
