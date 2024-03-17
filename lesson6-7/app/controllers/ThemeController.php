@@ -12,7 +12,10 @@ class ThemeController
      */
     public function themeMode(array $post): void
     {
-        $login = trim(htmlspecialchars($post['login'] ?? false));
+        session_start();
+        $login = trim(htmlspecialchars($_SESSION['user']['login'] ?? false));
+        session_write_close();
+
         $theme = $post['theme'] ?? false;
 
         $theme = new Theme($login, $theme);

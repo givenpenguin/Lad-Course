@@ -30,7 +30,6 @@ echo'</pre>';
                 <input id="light" type="radio" name="theme" value="light" <?php echo $_SESSION['user']['theme'] === 'light' ? 'checked' : '' ?>>
                 <span>Светлая тема</span>
             </label>
-            <input class="login" name="login" value="<?php echo $_SESSION['user']['login'] ?>">
             <button class="btnSubmit" type="submit">Применить</button>
         </form>
         <form class="exit" action="/route/index.php?action=logout" method="post">
@@ -68,8 +67,5 @@ echo'</pre>';
     }
     .btnSubmit {
         margin: 0 0 10px 0;
-    }
-    .login {
-        display: none;
     }
 </style>
