@@ -1,0 +1,146 @@
+{
+    "1": {
+        "id": 2,
+        "article": "rng-2",
+        "name": "Кольцо 2",
+        "brand": "SUNLIGHT",
+        "material": "Серебро",
+        "sample": 925,
+        "size": 3,
+        "insert": "Топаз",
+        "price": 3900,
+        "quantity": 68,
+        "category": "Кольца",
+        "image": {
+            "fileName": "resources\/images\/ring2.jpg"
+        }
+    },
+    "2": {
+        "id": 3,
+        "article": "errng-1",
+        "name": "Серьги 1",
+        "brand": "OKAMI",
+        "material": "Золото",
+        "sample": 925,
+        "lock": "lock 2",
+        "model": "model 1",
+        "insert": "Фианит",
+        "price": 22990,
+        "quantity": 13,
+        "category": "Серьги",
+        "image": {
+            "fileName": "resources\/images\/earring1.jpg"
+        }
+    },
+    "3": {
+        "id": 4,
+        "article": "errng-2",
+        "name": "Серьги 2",
+        "brand": "SUNLIGHT",
+        "material": "Платина",
+        "sample": 585,
+        "lock": "lock 1",
+        "model": "model 3",
+        "insert": "Фианит",
+        "price": 31900,
+        "quantity": 13,
+        "category": "Серьги",
+        "image": {
+            "fileName": "resources\/images\/earring2.jpg"
+        }
+    },
+    "4": {
+        "id": 5,
+        "article": "chn-1",
+        "name": "Цепочка 1",
+        "brand": "SUNLIGHT",
+        "material": "Золото",
+        "sample": 925,
+        "length": 30,
+        "insert": "Аметист",
+        "price": 15990,
+        "quantity": 20,
+        "category": "Цепи",
+        "image": {
+            "fileName": "resources\/images\/chain1.jpg"
+        }
+    },
+    "5": {
+        "id": 6,
+        "article": "chn-2",
+        "name": "Цепочка 2",
+        "brand": "OKAMI",
+        "material": "Керамика",
+        "sample": 925,
+        "length": 25,
+        "insert": "Бриллиант",
+        "price": 20900,
+        "quantity": 14,
+        "category": "Цепи",
+        "image": {
+            "fileName": "resources\/images\/chain2.jpg"
+        }
+    },
+    "6": {
+        "id": 7,
+        "article": "qwe",
+        "name": "qwe",
+        "brand": "qwe",
+        "material": "qwe",
+        "sample": 123,
+        "price": 123,
+        "quantity": 123,
+        "category": "Кольца",
+        "image": {
+            "fileName": "resources\/images\/5Kidpz4DDiY.jpg"
+        },
+        "size": 123,
+        "insert": "sdf"
+    },
+    "7": {
+        "id": 8,
+        "article": "sdf",
+        "name": "sdf",
+        "brand": "sdf",
+        "material": "sdf",
+        "sample": 234,
+        "price": 234,
+        "quantity": 23,
+        "category": "Цепи",
+        "image": {
+            "fileName": "resources\/images\/8lhUyc4D7yQ.jpg"
+        },
+        "length": 234
+    },
+    "8": {
+        "id": 9,
+        "article": "dsf",
+        "name": "sdf",
+        "brand": "sd",
+        "material": "dfg",
+        "sample": 45,
+        "price": 234,
+        "quantity": 2345,
+        "category": "Серьги",
+        "image": {
+            "fileName": "resources\/images\/8lhUyc4D7yQ.jpg"
+        },
+        "lock": "er432",
+        "model": "ert"
+    },
+    "9": {
+        "id": 10,
+        "article": "ert",
+        "name": "ert",
+        "brand": "ert",
+        "material": "ert",
+        "sample": 345,
+        "price": 345,
+        "quantity": 345,
+        "category": "Цепи",
+        "image": {
+            "fileName": "resources\/images\/8lhUyc4D7yQ.jpg"
+        },
+        "length": 345
+    }
+}
